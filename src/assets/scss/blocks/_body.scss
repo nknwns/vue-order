@@ -1,0 +1,48 @@
+body {
+    --body-bg: #f3f3f9;
+    --card-bg: #fff;
+    --border-color: #e9ebec;
+    --heading-color: #495057;
+    --menu-link-color: #212529;
+    --menu-border-color: #e9ebec;
+    --menu-bg: #fff;
+    --menu-link-hover-bg: #f3f6f9;
+    --input-check-border: #ced4da;
+    --input-check-bg: #fff;
+    --modal-bg: #fff;
+    --text-color: #000;
+
+    background-color: var(--body-bg);
+    font-family: 'Poppins', sans-serif;
+}
+
+body.dark {
+    --body-bg: #1a1d21;
+    --card-bg: #212529;
+    --border-color: #32383e;
+    --heading-color: #ced4da;
+    --menu-link-color: #adb5bd;
+    --menu-border-color: #32383e;
+    --menu-bg: #292e33;
+    --menu-link-hover-bg: #2f343a;
+    --input-check-border: #33393f;
+    --input-check-bg: #262a2f;
+    --modal-bg: #212529;
+    --text-color: #fff;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 1.5rem 0;
+}
+
+main {
+    flex-grow: 1;
+    margin-bottom: 2rem;
+}
+
+.footer {
+    flex-shrink: 1;
+}

@@ -1,0 +1,13 @@
+.footer {
+    &__body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: var(--heading-color);
+    }
+
+    &__button {
+        color: var(--heading-color);
+        height: 24px;
+    }
+}

@@ -1,0 +1,19 @@
+.switch {
+    border-radius: 40px;
+    width: 48px;
+    height: 24px;
+    background-color: var(--input-check-bg);
+    border: 1px solid var(--input-check-border);
+    appearance: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-image: url('../img/switch.svg');
+    transition: background-position .2s ease-in-out;
+
+    &:checked {
+        background-position: right center;
+        background-image: url('../img/switch-check.svg');
+        background-color: #405189;
+    }
+}

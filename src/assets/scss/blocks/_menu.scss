@@ -1,0 +1,39 @@
+.menu {
+    position: relative;
+
+    &__list {
+        position: absolute;
+        z-index: 10;
+        top: 100%;
+        box-shadow: 0 5px 10px rgb(30 32 37 / 12%);
+        background-color: var(--menu-bg);
+        border-radius: 0.3rem;
+        padding: 0.5rem 0;
+        border: 1px solid var(--menu-border-color);
+    }
+
+    &__link {
+        display: block;
+        width: 100%;
+        padding: 0.35rem 1.2rem;
+        font-weight: 400;
+        color: var(--menu-link-color);
+        white-space: nowrap;
+
+        &:hover {
+            background-color: var(--menu-link-hover-bg);
+        }
+
+        &--success {
+            color: rgb(10, 179, 156);
+        }
+
+        &--danger {
+            color: rgb(240, 101, 72);
+        }
+    }
+
+    &__button {
+        height: 24px;
+    }
+}

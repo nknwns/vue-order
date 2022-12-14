@@ -1,0 +1,44 @@
+button {
+    background: none;
+    border: none;
+}
+
+.button {
+    display: inline-block;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background-color: #405189;
+    border: 1px solid transparent;
+    border-color: #405189;
+    padding: 0.5rem 0.9rem;
+    font-size: .8125rem;
+    border-radius: 0.25rem;
+    transition: background-color .15s ease-in-out, border-color;
+
+    &:hover {
+        background-color: #364574;
+        border-color: #33416e;
+    }
+
+    &--danger {
+        background-color: #f06548;
+        border-color: #f06548;
+
+        &:hover {
+            background-color: #cc563d;
+            border-color: #c0513a;
+        }
+    }
+
+    &--success {
+        background-color: #0ab39c;
+        border-color: #0ab39c;
+
+        &:hover {
+            background-color: #099885;
+            border-color: #088f7d;
+        }
+    }
+}
